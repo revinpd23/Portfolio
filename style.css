@@ -1181,15 +1181,26 @@ footer a {
 /* =========================
    EXPERIENCE COMPANY LOGO
 ========================= */
-
 .experience-header .experience-logo {
-    width: 60px !important;
-    height: 60px !important;
-    max-width: 60px !important;
-    max-height: 60px !important;
-    min-width: 60px !important;
-    min-height: 60px !important;
+    width: 45px !important;
+    height: 45px !important;
+    max-width: 45px !important;
+    max-height: 45px !important;
+    min-width: 45px !important;
+    min-height: 45px !important;
     object-fit: contain !important;
     display: block !important;
-    flex: 0 0 60px !important;
+    flex: 0 0 45px !important;
+/* HP */
+@media (max-width: 768px) {
+    .experience-header .experience-logo {
+        width: 45px !important;
+        height: 45px !important;
+        max-width: 45px !important;
+        max-height: 45px !important;
+        min-width: 45px !important;
+        min-height: 45px !important;
+        flex: 0 0 45px !important;
+    }
+}
 }
