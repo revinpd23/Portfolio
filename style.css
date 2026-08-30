@@ -629,7 +629,43 @@ img {
 
     color: #60a5fa;
 }
+/* =========================
+   EXPERIENCE DOCUMENTATION
+========================= */
 
+.experience-body {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 300px;
+    gap: 30px;
+    align-items: start;
+}
+
+.experience-responsibilities {
+    min-width: 0;
+}
+
+.experience-documentation {
+    padding-left: 20px;
+    border-left: 1px solid #334155;
+}
+
+.experience-documentation h4 {
+    font-size: 0.8rem;
+    font-weight: 700;
+    color: #60a5fa;
+    margin-bottom: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.experience-documentation img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #334155;
+    display: block;
+}
 
 /* =========================
    PROJECTS
@@ -1115,6 +1151,32 @@ footer a {
         gap: 10px;
 
         text-align: center;
+    }
+
+}
+/* =========================
+   EXPERIENCE DOCUMENTATION
+   RESPONSIVE
+========================= */
+
+@media (max-width: 768px) {
+
+    .experience-body {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .experience-documentation {
+        padding-left: 0;
+        padding-top: 20px;
+        border-left: none;
+        border-top: 1px solid #334155;
+    }
+
+    .experience-documentation img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
     }
 
 }
