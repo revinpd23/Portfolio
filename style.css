@@ -1182,7 +1182,7 @@ footer a {
    EXPERIENCE COMPANY LOGO
 ========================= */
 
-.experience-header > img.experience-logo {
+.experience-header .experience-logo {
     width: 60px !important;
     height: 60px !important;
     max-width: 60px !important;
