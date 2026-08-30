@@ -1178,5 +1178,12 @@ footer a {
         height: auto;
         object-fit: contain;
     }
+/* EXPERIENCE COMPANY LOGO */
 
+.experience-logo {
+    width: 65px;
+    height: 65px;
+    object-fit: contain;
+    flex-shrink: 0;
 }
+
