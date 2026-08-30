@@ -1191,16 +1191,4 @@ footer a {
     object-fit: contain !important;
     display: block !important;
     flex: 0 0 45px !important;
-/* HP */
-@media (max-width: 768px) {
-    .experience-header .experience-logo {
-        width: 45px !important;
-        height: 45px !important;
-        max-width: 45px !important;
-        max-height: 45px !important;
-        min-width: 45px !important;
-        min-height: 45px !important;
-        flex: 0 0 45px !important;
-    }
-}
 }
