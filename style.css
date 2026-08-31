@@ -431,7 +431,8 @@ img {
 .experience-header {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
+    align-items: center;
+    gap: 30px;
     margin-bottom: 20px;
 }
 
@@ -939,17 +940,17 @@ footer a {
 ========================= */
 
 .experience-header .experience-logo {
-    width: 45px !important;
-    height: 45px !important;
-    min-width: 45px !important;
-    min-height: 45px !important;
-    max-width: 45px !important;
-    max-height: 45px !important;
+    width: 90px !important;
+    height: 90px !important;
+    min-width: 90px !important;
+    min-height: 90px !important;
+    max-width: 90px !important;
+    max-height: 90px !important;
 
     object-fit: contain !important;
     display: block !important;
 
-    flex: 0 0 45px !important;
+    flex: 0 0 90px !important;
 }
 
 
