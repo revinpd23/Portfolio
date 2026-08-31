@@ -199,8 +199,7 @@ img {
 
 .social-links {
     display: flex;
-    gap: 12px;
-    margin-top: 25px;
+    align-items: center;
 }
 
 .social-links a,
@@ -222,7 +221,10 @@ img {
     border-color: #2563eb;
     transform: translateY(-3px);
 }
-
+.email-link {
+    display: flex;
+    align-items: center;
+}
 
 /* =========================
    HERO IMAGE
