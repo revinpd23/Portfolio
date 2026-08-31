@@ -445,10 +445,6 @@ img {
    EXPERIENCE COMPANY LOGO
 ========================= */
 
-/* 
-   Logo BRI dibuat tetap kecil di semua ukuran layar.
-   Tidak dimasukkan ke dalam @media.
-*/
 
 .experience-header .experience-logo {
     width: 45px !important;
@@ -939,6 +935,25 @@ footer a {
 
 
 /* =========================
+   EXPERIENCE COMPANY LOGO
+========================= */
+
+.experience-header .experience-logo {
+    width: 45px !important;
+    height: 45px !important;
+    min-width: 45px !important;
+    min-height: 45px !important;
+    max-width: 45px !important;
+    max-height: 45px !important;
+
+    object-fit: contain !important;
+    display: block !important;
+
+    flex: 0 0 45px !important;
+}
+
+
+/* =========================
    EXPERIENCE DOCUMENTATION
    RESPONSIVE
 ========================= */
@@ -962,4 +977,5 @@ footer a {
         height: auto;
         object-fit: contain;
     }
+
 }
