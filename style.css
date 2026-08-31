@@ -434,6 +434,7 @@ img {
     align-items: center;
     gap: 30px;
     margin-bottom: 20px;
+   padding-right:30px;
 }
 
 .experience-header > i {
@@ -456,7 +457,7 @@ img {
     min-height: 45px !important;
     object-fit: contain !important;
     display: block !important;
-    flex: 0 0 45px !important;
+    flex: 0 0 90px !important;
 }
 
 
@@ -951,6 +952,7 @@ footer a {
     display: block !important;
 
     flex: 0 0 90px !important;
+  
 }
 
 
